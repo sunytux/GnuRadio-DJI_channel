@@ -1,1 +1,1 @@
-# Gnuradio block for controlling a DJI drone
+# Gnuradio OOT Module for controlling a M100 DJI drone

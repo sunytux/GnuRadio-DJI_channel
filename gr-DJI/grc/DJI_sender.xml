@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<block>
+  <name>sender</name>
+  <key>DJI_sender</key>
+  <category>[DJI]</category>
+  <import>import DJI</import>
+  <make>DJI.sender()</make>
+  <sink>
+    <name>in</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+</block>

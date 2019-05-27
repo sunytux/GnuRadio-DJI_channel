@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<block>
+  <name>aircraft</name>
+  <key>DJI_aircraft</key>
+  <category>[DJI]</category>
+  <import>import DJI</import>
+  <make>DJI.aircraft()</make>
+   <sink>
+    <name>in</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+</block>
